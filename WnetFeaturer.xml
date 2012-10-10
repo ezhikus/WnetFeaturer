@@ -1,0 +1,20 @@
+<Ui xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.blizzard.com/wow/ui/" xmlns="http://www.blizzard.com/wow/ui/">
+	<Script file="WnetFeaturer.lua" />
+	<Frame name="WnetFeaturerFrame">
+		<Scripts>
+			<OnLoad>
+				WnetFeaturer_OnLoad(self);
+			</OnLoad>
+			<OnEvent>
+				WnetFeaturer_OnEvent(self, event, ...);
+			</OnEvent>
+		</Scripts>
+	</Frame>
+	<Frame name="GameTooltip" parent="GameTooltip">
+		<Scripts>
+			<OnUpdate>
+        WnetChecker_GameTooltip_OnUpdate();
+      </OnUpdate>
+		</Scripts>
+	</Frame>
+</Ui>

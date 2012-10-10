@@ -1,0 +1,11 @@
+## Interface: 30000
+## Title: Wnet Featurer 1.7
+## Notes: Wnet Server Features List
+## RequiredDeps: 
+## OptionalDeps:
+## LoadWith: Blizzard_TalentUI
+## SavedVariables: 
+Data.lua
+WnetWarnings.lua
+WnetFeaturer.xml
+
